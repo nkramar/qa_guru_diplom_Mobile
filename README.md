@@ -118,11 +118,11 @@ ____
 <img title="Telegram notification" src="images/Telegram_bot.png">  
 </p>
 
-## <img src="images/Appium.svg" width="25" height="25"  alt="Appium"/></a> *Пример видео выполнения тест кейса на удаленном сервере BrowserStack*
+## <img src="images/Appium.svg" width="25" height="25"  alt="Appium"/></a> *Пример видео выполнения теста на сервере BrowserStack*
 
 
 <p align="center"> 
-<img title="Browserstack Video" src="images/BrowserStackVideoShort.gif" width="450" height="550"  alt="video">   
+<img title="Browserstack Video" src="images/BrowserStackVideoShort.gif" width="450" height="500"  alt="video">   
 </p>
 
 
