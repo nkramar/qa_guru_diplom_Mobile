@@ -45,7 +45,7 @@ ____
 
 ____
 
-#<img src="images/Jenkins.svg" width="25" height="25" alt="Jenkins"/> </a> <a name="Jenkins">*Запуск тестов в Jenkins*</a>
+# <img src="images/Jenkins.svg" width="25" height="25" alt="Jenkins"/> # </a> <a name="Jenkins">*Запуск тестов в Jenkins*</a>
 
 <a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_diplom_Mobile_tests/">**Сборка в Jenkins**</a>
 <p align="center">  
@@ -93,7 +93,7 @@ ___
 
 # <img src="images/AllureTestOps.svg" width="25" height="25"  alt="Allure"/> <a name="AllureTestOps">*Интеграция с Allure TestOps*</a>
 
-##</a>*TestOps* <a target="_blank" href="https://allure.autotests.cloud/launch/15409/tree/155295?treeId=0">*Dashboard*</a>
+# </a>*TestOps* <a target="_blank" href="https://allure.autotests.cloud/launch/15409/tree/155295?treeId=0">*Dashboard*</a>
 
 <p align="center">  
 <img title="Allure TestOps Dashboard" src="images/Allure_Test_Ops_Dashboard.png">  
@@ -109,14 +109,14 @@ ___
 
 # <img src="images/Jira.svg" width="25" height="25"  alt="Allure"/> <a name="Jira">*Интеграция с Jira*</a>
 
-##</a>*Тикет в* <a target="_blank" href="https://jira.autotests.cloud/browse/AUTO-1320">*Jira*</a>
+# </a>*Тикет в* <a target="_blank" href="https://jira.autotests.cloud/browse/AUTO-1320">*Jira*</a>
 
 <p align="center">  
 <img title="Jira" src="images/JiraTicket.png">  
 </p>
 
 ____
-#<img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/> <a name="Telegram">*Уведомление в Telegram при помощи Alert bot*</a>
+# <img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/> <a name="Telegram">*Уведомление в Telegram при помощи Alert bot*</a>
 
 
 
@@ -124,7 +124,7 @@ ____
 <img title="Telegram notification" src="images/Telegram_bot.png">  
 </p>
 
-##<img src="images/Browserstack.svg" width="25" height="25" alt="Browserstack"/> <a name="BrowserStack">Пример видео выполнения теста на сервере BrowserStack</a>
+# <img src="images/Browserstack.svg" width="25" height="25" alt="Browserstack"/> # <a name="BrowserStack">Пример видео выполнения теста на сервере BrowserStack</a>
 
 <p align="center"> 
 <img title="Browserstack Video" src="images/BrowserStackVideoShort.gif" width="450" height="450"  alt="video">   
