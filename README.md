@@ -122,7 +122,7 @@ ____
 
 
 <p align="center"> 
-<img title="Browserstack Video" src="images/BrowserStackVideoShort.gif" width="450" height="650"  alt="video">   
+<img title="Browserstack Video" src="images/BrowserStackVideoShort.gif" width="350" height="550"  alt="video">   
 </p>
 
 
