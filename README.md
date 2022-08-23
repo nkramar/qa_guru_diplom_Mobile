@@ -17,8 +17,10 @@
 + [Уведомление в Telegram при помощи Alert bot](#Telegram)
 + [Пример видео выполнения теста на сервере BrowserStack](#BrowserStack)
 
-____
-# <a name="Technology">*Технологии и инструменты*</a>
+<h2 align="center">
+<a name="Technology"><i>Технологии и инструменты</i></a>
+</h2>
+
 
 <p align="center">  
 <a href="https://www.jetbrains.com/idea/"><img src="images/Intelij_IDEA.svg" width="50" height="50"  alt="IDEA"/></a>  
@@ -36,25 +38,30 @@ ____
 <a href="https://www.atlassian.com/ru/software/jira/"><img src="images/Jira.svg" width="50" height="50"  alt="Jira"/></a>  
 </p>
 
-____
-# <a name="TestCases">*Примеры автоматизированных тест кейсов*</a>
+
+<h2 align="center">
+<a name="Technology"><i>Примеры автоматизированных тест кейсов</i></a>
+</h2>
 
 - :white_check_mark: Проверка добавления дополнительного языка в Wikipedia
 - :white_check_mark: Проверка текста на стартовом экране
 - :white_check_mark: Проверка функции поиска по тексту
 
-____
 
-# <img src="images/Jenkins.svg" width="25" height="25" alt="Jenkins"/> </a> <a name="Jenkins">*Запуск тестов в Jenkins*</a>
+
+<h2 align="center">
+<img src="images/Jenkins.svg" width="25" height="25" alt="Jenkins"/> </a> <a name="Jenkins"><i>Запуск тестов в Jenkins</i></a>
+</h2>
 
 <a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_diplom_Mobile_tests/">**Сборка в Jenkins**</a>
 <p align="center">  
 <a href="https://jenkins.autotests.cloud/job/qa_guru_diplom_Mobile_tests/"><img src="images/JenkinsJobMobile.png" alt="Jenkins"/></a>  
 </p>
 
+<h2 align="center">
+<a name="Technology"><i>Команды для запуска из терминала</i></a>
+</h2>
 
-____
-# <a name="SystemProperty">*Команды для запуска из терминала*</a>
 
 ***Локальный запуск:***
 ```bash  
@@ -66,8 +73,10 @@ gradle clean android_tests -DdeviceHost=${DEVICEHOST}
 gradle clean android_tests -DdeviceHost=${DEVICEHOST}
 ```
 
-# <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure_Report"/> <a name="AllureReport"></a></a><a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_diplom_Mobile_tests/">*Отчет о результатах тестирования в Allure Report*</a>
-___
+
+<h2 align="center">
+ <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure_Report"/> <a name="AllureReport"></a></a><a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_diplom_Mobile_tests/"><i>Отчет о результатах тестирования в Allure Report</i></a>
+</h2>
 
 ### *Основная страница отчёта*
 
@@ -83,13 +92,13 @@ ___
 
 ### *Графики*
 
-  <p align="center">  
+ <p align="center">  
 <img title="Allure Graphics" src="images/Allure_Charts.png">  
 </p>
 
-___
-
-# <img src="images/AllureTestOps.svg" width="25" height="25"  alt="Allure"/> <a name="AllureTestOps"></a></a><a target="_blank" href="https://allure.autotests.cloud/launch/15409/tree/155295?treeId=0">*Интеграция с Allure TestOps*</a>
+<h2 align="center">
+<img src="images/AllureTestOps.svg" width="25" height="25"  alt="Allure"/> <a name="AllureTestOps"></a></a><a target="_blank" href="https://allure.autotests.cloud/launch/15409/tree/155295?treeId=0"><i>Интеграция с Allure TestOps</i></a>
+</h2>
 
 <p align="center">  
 <img title="Allure TestOps Dashboard" src="images/Allure_Test_Ops_Dashboard.png">  
@@ -101,23 +110,25 @@ ___
 <img title="Allure TestOps Tests" src="images/TestOpsTests.png">  
 </p>
 
-___
-
-# <img src="images/Jira.svg" width="25" height="25"  alt="Jira"/> <a name="Jira"></a></a><a target="_blank" href="https://jira.autotests.cloud/browse/AUTO-1320">*Интеграция с Jira*</a>
+<h2 align="center">
+<img src="images/Jira.svg" width="25" height="25"  alt="Jira"/> <a name="Jira"></a></a><a target="_blank" href="https://jira.autotests.cloud/browse/AUTO-1320"><i>Интеграция с Jira</i></a>
+</h2>
 
 <p align="center">  
 <img title="Jira" src="images/JiraTicket.png">  
 </p>
 
-____
-# <img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/> <a name="Telegram">*Уведомление в Telegram при помощи Alert bot*</a>
-
+<h2 align="center">
+<img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/> <a name="Telegram"><i>Уведомление в Telegram при помощи Alert bot</i></a>
+</h2>
 
 <p align="center">  
 <img title="Telegram notification" src="images/Telegram_bot.png">  
 </p>
 
-# <img src="images/Browserstack.svg" width="25" height="25" alt="Browserstack"/> <a name="BrowserStack">Пример видео выполнения теста на BrowserStack</a>
+<h2 align="center">
+<img src="images/Browserstack.svg" width="25" height="25" alt="Browserstack"/> <a name="BrowserStack"><i>Пример видео выполнения теста на BrowserStack</i></a>
+</h2>
 
 <p align="center"> 
 <img title="Browserstack Video" src="images/BrowserStackVideoShort.gif" width="450" height="450"  alt="video">   
