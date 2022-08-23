@@ -50,7 +50,7 @@
 
 
 <h1 align="left">
-<img src="images/Jenkins.svg" width="25" height="25" alt="Jenkins"/> </a> <a name="Jenkins"><i>Запуск тестов в Jenkins</i></a>
+<img src="images/Jenkins.svg" width="25" height="25" alt="Jenkins"/>  <a name="Jenkins"><i>Запуск тестов в Jenkins</i></a>
 </h1>
 
 <a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_diplom_Mobile_tests/">**Сборка в Jenkins**</a>
@@ -75,7 +75,7 @@ clean android_tests -DdeviceHost=${DEVICEHOST}
 
 
 <h1 align="left">
-<img src="images/Allure_Report.svg" width="25" height="25" alt="Allure_Report"/> </a> <a name="AllureReport"><i>Отчет о результатах тестирования в Allure Report</i></a>
+<img src="images/Allure_Report.svg" width="25" height="25" alt="Allure_Report"/>  <a name="AllureReport"><i>Отчет о результатах тестирования в Allure Report</i></a>
 </h1>
 
 <a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_diplom_Mobile_tests">**Отчёт в Jenkins**</a>
@@ -103,7 +103,7 @@ clean android_tests -DdeviceHost=${DEVICEHOST}
 
 
 <h1 align="left">
-<img src="images/AllureTestOps.svg" width="25" height="25" alt="AllureTestOps"/> </a> <a name="AllureTestOps"><i>Интеграция с Allure TestOps</i></a>
+<img src="images/AllureTestOps.svg" width="25" height="25" alt="AllureTestOps"/> <a name="AllureTestOps"><i>Интеграция с Allure TestOps</i></a>
 </h1>
 
 <a target="_blank" href="https://allure.autotests.cloud/launch/15409/tree/155295?treeId=0">**Проект в TestOps**</a>
@@ -122,7 +122,7 @@ clean android_tests -DdeviceHost=${DEVICEHOST}
 
 
 <h1 align="left">
-<img src="images/Jira.svg" width="25" height="25" alt="Jira"/> </a> <a name="Jira"><i>Интеграция с Jira</i></a>
+<img src="images/Jira.svg" width="25" height="25" alt="Jira"/> <a name="Jira"><i>Интеграция с Jira</i></a>
 </h1>
 
 <a target="_blank" href="https://jira.autotests.cloud/browse/AUTO-1320">**Тикет в Jira**</a>
