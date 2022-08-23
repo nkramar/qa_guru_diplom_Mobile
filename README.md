@@ -17,9 +17,9 @@
 + [Уведомление в Telegram при помощи Alert bot](#Telegram)
 + [Пример видео выполнения теста на сервере BrowserStack](#BrowserStack)
 
-<h2 align="center">
+<h1 align="center">
 <a name="Technology"><i>Технологии и инструменты</i></a>
-</h2>
+</h1>
 
 
 <p align="center">  
@@ -39,9 +39,9 @@
 </p>
 
 
-<h2 align="center">
+<h1 align="center">
 <a name="Technology"><i>Примеры автоматизированных тест кейсов</i></a>
-</h2>
+</h1>
 
 - :white_check_mark: Проверка добавления дополнительного языка в Wikipedia
 - :white_check_mark: Проверка текста на стартовом экране
@@ -49,18 +49,18 @@
 
 
 
-<h2 align="center">
+<h1 align="center">
 <img src="images/Jenkins.svg" width="25" height="25" alt="Jenkins"/> </a> <a name="Jenkins"><i>Запуск тестов в Jenkins</i></a>
-</h2>
+</h1>
 
 <a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_diplom_Mobile_tests/">**Сборка в Jenkins**</a>
 <p align="center">  
 <a href="https://jenkins.autotests.cloud/job/qa_guru_diplom_Mobile_tests/"><img src="images/JenkinsJobMobile.png" alt="Jenkins"/></a>  
 </p>
 
-<h2 align="center">
+<h1 align="center">
 <a name="Technology"><i>Команды для запуска из терминала</i></a>
-</h2>
+</h1>
 
 
 ***Локальный запуск:***
@@ -74,9 +74,9 @@ gradle clean android_tests -DdeviceHost=${DEVICEHOST}
 ```
 
 
-<h2 align="center">
+<h1 align="center">
  <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure_Report"/> <a name="AllureReport"></a></a><a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_diplom_Mobile_tests/"><i>Отчет о результатах тестирования в Allure Report</i></a>
-</h2>
+</h1>
 
 ### *Основная страница отчёта*
 
@@ -96,9 +96,9 @@ gradle clean android_tests -DdeviceHost=${DEVICEHOST}
 <img title="Allure Graphics" src="images/Allure_Charts.png">  
 </p>
 
-<h2 align="center">
+<h1 align="center">
 <img src="images/AllureTestOps.svg" width="25" height="25"  alt="Allure"/> <a name="AllureTestOps"></a></a><a target="_blank" href="https://allure.autotests.cloud/launch/15409/tree/155295?treeId=0"><i>Интеграция с Allure TestOps</i></a>
-</h2>
+</h1>
 
 <p align="center">  
 <img title="Allure TestOps Dashboard" src="images/Allure_Test_Ops_Dashboard.png">  
@@ -110,25 +110,25 @@ gradle clean android_tests -DdeviceHost=${DEVICEHOST}
 <img title="Allure TestOps Tests" src="images/TestOpsTests.png">  
 </p>
 
-<h2 align="center">
+<h1 align="center">
 <img src="images/Jira.svg" width="25" height="25"  alt="Jira"/> <a name="Jira"></a></a><a target="_blank" href="https://jira.autotests.cloud/browse/AUTO-1320"><i>Интеграция с Jira</i></a>
-</h2>
+</h1>
 
 <p align="center">  
 <img title="Jira" src="images/JiraTicket.png">  
 </p>
 
-<h2 align="center">
+<h1 align="center">
 <img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/> <a name="Telegram"><i>Уведомление в Telegram при помощи Alert bot</i></a>
-</h2>
+</h1>
 
 <p align="center">  
 <img title="Telegram notification" src="images/Telegram_bot.png">  
 </p>
 
-<h2 align="center">
+<h1 align="center">
 <img src="images/Browserstack.svg" width="25" height="25" alt="Browserstack"/> <a name="BrowserStack"><i>Пример видео выполнения теста на BrowserStack</i></a>
-</h2>
+</h1>
 
 <p align="center"> 
 <img title="Browserstack Video" src="images/BrowserStackVideoShort.gif" width="450" height="450"  alt="video">   
