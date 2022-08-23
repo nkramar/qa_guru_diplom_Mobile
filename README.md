@@ -1,5 +1,5 @@
 
-<h1 align="center"> Проект по мобильной автоматизации для приложения Wikipedia <a target="_blank" href="https://www.wikipedia.org/"></a> </h1>
+<h1 align="center">Проект по мобильной автоматизации для приложения Wikipedia <a target="_blank" href="https://www.wikipedia.org/"></a> </h1>
 
 <p align="center">
 <img title="Wikipedia" src="images/WikipediaLogo.png">
@@ -70,13 +70,18 @@ gradle clean android_tests -DdeviceHost=${DEVICEHOST}
 
 ***Удалённый запуск через Jenkins:***
 ```bash  
-gradle clean android_tests -DdeviceHost=${DEVICEHOST}
+clean android_tests -DdeviceHost=${DEVICEHOST}
 ```
 
 
 <h1 align="left">
- <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure_Report"/> <a name="AllureReport"></a></a><a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_diplom_Mobile_tests/"><i>Отчет о результатах тестирования в Allure Report</i></a>
+<img src="images/Allure_Report.svg" width="25" height="25" alt="Allure_Report"/> </a> <a name="AllureReport"><i>Отчет о результатах тестирования в Allure Report</i></a>
 </h1>
+
+<a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_diplom_Mobile_tests">**Отчёт в Jenkins**</a>
+<p align="center">  
+
+
 
 ### *Основная страница отчёта*
 
@@ -96,9 +101,14 @@ gradle clean android_tests -DdeviceHost=${DEVICEHOST}
 <img title="Allure Graphics" src="images/Allure_Charts.png">  
 </p>
 
+
 <h1 align="left">
-<img src="images/AllureTestOps.svg" width="25" height="25"  alt="Allure"/> <a name="AllureTestOps"></a></a><a target="_blank" href="https://allure.autotests.cloud/launch/15409/tree/155295?treeId=0"><i>Интеграция с Allure TestOps</i></a>
+<img src="images/AllureTestOps.svg" width="25" height="25" alt="AllureTestOps"/> </a> <a name="AllureTestOps"><i>Интеграция с Allure TestOps</i></a>
 </h1>
+
+<a target="_blank" href="https://allure.autotests.cloud/launch/15409/tree/155295?treeId=0">**Проект в TestOps**</a>
+<p align="center">  
+
 
 <p align="center">  
 <img title="Allure TestOps Dashboard" src="images/Allure_Test_Ops_Dashboard.png">  
@@ -110,9 +120,14 @@ gradle clean android_tests -DdeviceHost=${DEVICEHOST}
 <img title="Allure TestOps Tests" src="images/TestOpsTests.png">  
 </p>
 
+
 <h1 align="left">
-<img src="images/Jira.svg" width="25" height="25"  alt="Jira"/> <a name="Jira"></a></a><a target="_blank" href="https://jira.autotests.cloud/browse/AUTO-1320"><i>Интеграция с Jira</i></a>
+<img src="images/Jira.svg" width="25" height="25" alt="Jira"/> </a> <a name="Jira"><i>Интеграция с Jira</i></a>
 </h1>
+
+<a target="_blank" href="https://jira.autotests.cloud/browse/AUTO-1320">**Тикет в Jira**</a>
+<p align="center">  
+ 
 
 <p align="center">  
 <img title="Jira" src="images/JiraTicket.png">  
