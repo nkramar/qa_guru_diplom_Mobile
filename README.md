@@ -89,7 +89,7 @@ ___
 
 ___
 
-## <img src="images/AllureTestOps.svg" width="25" height="25"  alt="Allure"/></a>*Интеграция с* <a target="_blank" href="https:https://allure.autotests.cloud/launch/15409/tree/155295?treeId=0">*Allure TestOps*</a>
+## <img src="images/AllureTestOps.svg" width="25" height="25"  alt="Allure"/></a>*Интеграция с* <a target="_blank" href="https://allure.autotests.cloud/launch/15409/tree/155295?treeId=0">*Allure TestOps*</a>
 
 ## *Allure TestOps Dashboard*
 
@@ -122,7 +122,7 @@ ____
 
 
 <p align="center"> 
-<img title="Browserstack Video" src="images/BrowserStackVideoShort.gif" width="650" height="350"  alt="video">   
+<img title="Browserstack Video" src="images/BrowserStackVideoShort.gif" width="450" height="650"  alt="video">   
 </p>
 
 
