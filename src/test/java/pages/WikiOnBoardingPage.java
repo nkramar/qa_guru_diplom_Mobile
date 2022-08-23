@@ -10,7 +10,6 @@ import static com.codeborne.selenide.Selenide.$;
 public class WikiOnBoardingPage {
   SelenideElement
           primaryTextView = $(AppiumBy.id("org.wikipedia.alpha:id/primaryTextView")),
-          onBoardingPageIndicator = $(AppiumBy.id("org.wikipedia.alpha:id/view_onboarding_page_indicator")),
           continueButton = $(AppiumBy.id("org.wikipedia.alpha:id/fragment_onboarding_forward_button"));
 
   public final String
@@ -20,14 +19,8 @@ public class WikiOnBoardingPage {
           textOnFourthScreen = "Send anonymous data";
 
 
-  public WikiOnBoardingPage shouldHavePrimaryText(String value) {
+  public void shouldHavePrimaryText(String value) {
     primaryTextView.shouldHave(text(value));
-    return this;
-  }
-
-  public WikiOnBoardingPage clickOnNextPage(int pageNumber) {
-    onBoardingPageIndicator.find(".android.widget.LinearLayout", pageNumber).click();
-    return this;
   }
 
   public void clickContinueButton() {
