@@ -6,7 +6,7 @@
 </p>
 
 
-### :green_book: *Содержание*
+## :green_book: *Содержание*
 + [Технологии и инструменты](#Technology)
 + [Примеры автоматизированных тест кейсов](#TestCases)
 + [Запуск тестов в Jenkins](#Jenkins)
@@ -37,7 +37,7 @@ ____
 </p>
 
 ____
-# <a name="TestCases">Примеры автоматизированных тест кейсов</a>
+# <a name="TestCases">*Примеры автоматизированных тест кейсов*</a>
 
 - :white_check_mark: Проверка добавления дополнительного языка в Wikipedia
 - :white_check_mark: Проверка текста на стартовом экране
@@ -45,9 +45,8 @@ ____
 
 ____
 
-# <a name="Jenkins">Запуск тестов в Jenkins</a>
+#<img src="images/Jenkins.svg" width="25" height="25" alt="Jenkins"/> </a> <a name="Jenkins">*Запуск тестов в Jenkins*</a>
 
-## <img src="images/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins job
 <a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_diplom_Mobile_tests/">**Сборка в Jenkins**</a>
 <p align="center">  
 <a href="https://jenkins.autotests.cloud/job/qa_guru_diplom_Mobile_tests/"><img src="images/JenkinsJobMobile.png" alt="Jenkins"/></a>  
@@ -55,7 +54,7 @@ ____
 
 
 ____
-# <a name="SystemProperty">Команды для запуска из терминала</a>
+# <a name="SystemProperty">*Команды для запуска из терминала*</a>
 
 ***Локальный запуск:***
 ```bash  
@@ -67,7 +66,7 @@ gradle clean android_tests -DdeviceHost=${DEVICEHOST}
 gradle clean android_tests -DdeviceHost=${DEVICEHOST}
 ```
 
-# <a name="AllureReport">Отчет о результатах тестирования в Allure Report</a>
+# <a name="AllureReport">*Отчет о результатах тестирования в Allure Report*</a>
 
 ## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> *Allure* <a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_diplom_Mobile_tests/">*отчёт*</a>
 ___
@@ -92,11 +91,9 @@ ___
 
 ___
 
-# <a name="AllureTestOps">Интеграция с Allure TestOps</a>
+# <img src="images/AllureTestOps.svg" width="25" height="25"  alt="Allure"/> <a name="AllureTestOps">*Интеграция с Allure TestOps*</a>
 
-## <img src="images/AllureTestOps.svg" width="25" height="25"  alt="Allure"/></a>*Интеграция с* <a target="_blank" href="https://allure.autotests.cloud/launch/15409/tree/155295?treeId=0">*Allure TestOps*</a>
-
-## *Allure TestOps Dashboard*
+##</a>*TestOps* <a target="_blank" href="https://allure.autotests.cloud/launch/15409/tree/155295?treeId=0">*Dashboard*</a>
 
 <p align="center">  
 <img title="Allure TestOps Dashboard" src="images/Allure_Test_Ops_Dashboard.png">  
@@ -110,26 +107,24 @@ ___
 
 ___
 
-# <a name="Jira">Интеграция с Jira</a>
+# <img src="images/Jira.svg" width="25" height="25"  alt="Allure"/> <a name="Jira">*Интеграция с Jira*</a>
 
-## <img src="images/Jira.svg" width="25" height="25"  alt="Allure"/></a>*Интеграция с* <a target="_blank" href="https://jira.autotests.cloud/browse/AUTO-1320">Jira</a>
+##</a>*Тикет в* <a target="_blank" href="https://jira.autotests.cloud/browse/AUTO-1320">*Jira*</a>
 
 <p align="center">  
 <img title="Jira" src="images/JiraTicket.png">  
 </p>
 
 ____
-# <a name="Telegram">Уведомление в Telegram при помощи Alert bot</a>
+#<img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/> <a name="Telegram">*Уведомление в Telegram при помощи Alert bot*</a>
 
-## <img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/></a> *Уведомление в Telegram при помощи Alert bot*
+
 
 <p align="center">  
 <img title="Telegram notification" src="images/Telegram_bot.png">  
 </p>
 
-# <a name="BrowserStack">Пример видео выполнения теста на сервере BrowserStack</a>
-
-## <img src="images/Browserstack.svg" width="25" height="25"  alt="Appium"/></a> *Пример видео выполнения теста на сервере BrowserStack*
+##<img src="images/Browserstack.svg" width="25" height="25" alt="Browserstack"/> <a name="BrowserStack">Пример видео выполнения теста на сервере BrowserStack</a>
 
 <p align="center"> 
 <img title="Browserstack Video" src="images/BrowserStackVideoShort.gif" width="450" height="450"  alt="video">   
