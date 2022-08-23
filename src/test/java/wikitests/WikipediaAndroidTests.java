@@ -42,8 +42,8 @@ public class WikipediaAndroidTests extends TestBase {
   @Tag("android")
   @Test
   @Owner("nkramar")
-  @Feature("Первоначальная настройка")
-  @Story("Навигация по страницам с первоначальной настройкой")
+  @Feature("Стартовые настройки")
+  @Story("Навигация по стартовым страницам")
   @DisplayName("Проверка главного текста на 4х экранах")
   void checkPrimaryTextsOnScreens() {
 
