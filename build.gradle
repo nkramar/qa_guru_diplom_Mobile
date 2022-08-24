@@ -11,7 +11,6 @@ def allureVersion = "2.18.1",
     selenideVersion = "6.6.6",
     restAssuredVersion = "5.1.1",
     appiumVersion = "8.1.1",
-//    appiumVersion = "7.6.0",
     slf4jVersion = "1.7.32",
     junitVersion = "5.9.0",
     ownerVersion = "1.0.12",
@@ -64,10 +63,5 @@ tasks.withType(Test) {
 task android_tests(type: Test) {
     useJUnitPlatform {
         includeTags 'android'
-    }
-}
-task emulator_tests(type: Test) {
-    useJUnitPlatform {
-        includeTags 'emulator'
     }
 }
