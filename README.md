@@ -143,7 +143,7 @@ clean android_tests -DdeviceHost=${DEVICEHOST}
 </p>
 
 <h1 align="left">
-<img src="images/Browserstack.svg" width="25" height="25" alt="Browserstack"/> <a name="Browserstack"><i>Пример видео выполнения теста на BrowserStack</i></a>
+<img src="images/Browserstack.svg" width="25" height="25" alt="Browserstack"/> <a name="Browserstack"><i>Пример видео выполнения теста на Browserstack</i></a>
 </h1>
 
 <p align="center"> 
