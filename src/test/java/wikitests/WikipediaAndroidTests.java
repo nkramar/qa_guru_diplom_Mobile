@@ -11,9 +11,8 @@ import static io.qameta.allure.Allure.step;
 
 public class WikipediaAndroidTests extends TestBase {
 
-
-  @Tag("android")
   @Test
+  @Tag("android")
   @Owner("nkramar")
   @Feature("Страница с языками")
   @Story("Добавление языка к Wikipedia")
@@ -39,8 +38,8 @@ public class WikipediaAndroidTests extends TestBase {
             -> wikiAddLanguagesPage.checkSizeOfLanguagesList());
   }
 
-  @Tag("android")
   @Test
+  @Tag("android")
   @Owner("nkramar")
   @Feature("Стартовые настройки")
   @Story("Навигация по стартовым страницам")
@@ -69,8 +68,8 @@ public class WikipediaAndroidTests extends TestBase {
             -> wikiOnBoardingPage.shouldHavePrimaryText(wikiOnBoardingPage.textOnFourthScreen));
   }
 
-  @Tag("android")
   @Test
+  @Tag("android")
   @Owner("nkramar")
   @Feature("Страница поиска")
   @Story("Поиск и открытие статьи")
