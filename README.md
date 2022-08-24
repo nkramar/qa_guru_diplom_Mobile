@@ -76,7 +76,7 @@ clean android_tests -DdeviceHost=${DEVICEHOST}
 
 
 <h1 align="left">
-<img src="images/Allure_Report.svg" width="25" height="25" alt="Allure_Report"/>  <a name="AllureReport"><i>Отчет о результатах тестирования в Allure Report</i></a>
+<img src="images/Allure_Report.svg" width="25" height="25" alt="Allure_Report"/>  <a name="AllureReport"><i>Отчет о результатах тестирования в Allure</i></a>
 </h1>
 
 <a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_diplom_Mobile_tests">**Отчёт в Jenkins**</a>
