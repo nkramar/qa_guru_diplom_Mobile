@@ -16,7 +16,7 @@
 + [Интеграция с Allure TestOps](#AllureTestOps)
 + [Интеграция с Jira](#Jira)
 + [Уведомление в Telegram при помощи Alert bot](#Telegram)
-+ [Пример видео выполнения теста на сервере BrowserStack](#BrowserStack)
++ [Пример видео выполнения теста на Browserstack](#Browserstack)
 
 <h1 align="left">
 <a name="Technology"><i>Технологии и инструменты</i></a>
@@ -143,7 +143,7 @@ clean android_tests -DdeviceHost=${DEVICEHOST}
 </p>
 
 <h1 align="left">
-<img src="images/Browserstack.svg" width="25" height="25" alt="Browserstack"/> <a name="BrowserStack"><i>Пример видео выполнения теста на BrowserStack</i></a>
+<img src="images/Browserstack.svg" width="25" height="25" alt="Browserstack"/> <a name="Browserstack"><i>Пример видео выполнения теста на BrowserStack</i></a>
 </h1>
 
 <p align="center"> 
