@@ -1,5 +1,5 @@
 
-<h1 align="center">Проект по мобильной автоматизации для приложения Wikipedia <a target="_blank" href="https://www.wikipedia.org/"></a> </h1>
+<h2 align="center">Проект по мобильной автоматизации для приложения Wikipedia <a target="_blank" href="https://www.wikipedia.org/"></a> </h2>
 
 <p align="center">
 <img title="Wikipedia" src="images/WikipediaLogo.png">
