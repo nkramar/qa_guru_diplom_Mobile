@@ -40,8 +40,7 @@ dependencies {
             "org.slf4j:slf4j-simple:$slf4jVersion",
             "org.junit.jupiter:junit-jupiter:$junitVersion",
             "org.aeonbits.owner:owner:$ownerVersion",
-            "commons-io:commons-io:$commonsIoVersion"
-    )
+            "commons-io:commons-io:$commonsIoVersion")
 }
 
 tasks.withType(JavaCompile) {
