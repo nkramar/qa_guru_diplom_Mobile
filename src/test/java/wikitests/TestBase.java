@@ -34,7 +34,7 @@ public class TestBase {
       case "realDevice":
         Configuration.browser = RealDeviceDriver.class.getName();
         break;
-      case ("emulator"):
+      case "emulator":
       default:
         Configuration.browser = EmulatorMobileDriver.class.getName();
         break;
