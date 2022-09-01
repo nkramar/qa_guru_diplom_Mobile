@@ -8,14 +8,12 @@ import io.appium.java_client.remote.AutomationName;
 import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
-
 import javax.annotation.Nonnull;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
-
 import static org.apache.commons.io.FileUtils.copyInputStreamToFile;
 
 public class RealDeviceDriver implements WebDriverProvider {
@@ -39,7 +37,6 @@ public class RealDeviceDriver implements WebDriverProvider {
     options.setApp(app.getAbsolutePath());
     options.setAppPackage("org.wikipedia.alpha");
     options.setAppActivity("org.wikipedia.main.MainActivity");
-
 
     return new AndroidDriver(getAppiumServerUrl(), options);
   }

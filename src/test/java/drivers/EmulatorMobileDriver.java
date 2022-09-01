@@ -1,6 +1,5 @@
 package drivers;
 
-
 import com.codeborne.selenide.WebDriverProvider;
 import config.EmulatorConfig;
 import io.appium.java_client.android.AndroidDriver;
@@ -9,14 +8,12 @@ import io.appium.java_client.remote.AutomationName;
 import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
-
 import javax.annotation.Nonnull;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
-
 import static org.apache.commons.io.FileUtils.copyInputStreamToFile;
 
 public class EmulatorMobileDriver implements WebDriverProvider {
@@ -25,7 +22,7 @@ public class EmulatorMobileDriver implements WebDriverProvider {
   @Override
   public WebDriver createDriver(@Nonnull Capabilities capabilities) {
 
-   EmulatorConfig config = ConfigFactory.create(EmulatorConfig.class, System.getProperties());
+    EmulatorConfig config = ConfigFactory.create(EmulatorConfig.class, System.getProperties());
     String platformName = config.platformNameEm();
     String deviceName = config.deviceNameEm();
     String osVersion = config.osVersionEm();
@@ -40,7 +37,6 @@ public class EmulatorMobileDriver implements WebDriverProvider {
     options.setApp(app.getAbsolutePath());
     options.setAppPackage("org.wikipedia.alpha");
     options.setAppActivity("org.wikipedia.main.MainActivity");
-
 
     return new AndroidDriver(getAppiumServerUrl(), options);
   }
