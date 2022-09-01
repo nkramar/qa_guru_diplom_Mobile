@@ -3,9 +3,7 @@ package pages;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import io.appium.java_client.AppiumBy;
-
-import static com.codeborne.selenide.CollectionCondition.size;
-import static com.codeborne.selenide.CollectionCondition.texts;
+import static com.codeborne.selenide.CollectionCondition.*;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
@@ -19,7 +17,8 @@ public class WikiAddLanguagesPage {
           backButton = $(AppiumBy.className("android.widget.ImageButton")),
           languagesList = $(AppiumBy.id("org.wikipedia.alpha:id/languagesList"));
 
-  ElementsCollection wikiLanguagesListOnFirstScreen = $$(AppiumBy.id("org.wikipedia.alpha:id/wiki_language_title"));
+  ElementsCollection
+          languageCodeList = $$(AppiumBy.id("org.wikipedia.alpha:id/wiki_language_code"));
 
   public void clickAddOrEditLanguages() {
     addOrEditLanguagesBtn.click();
@@ -37,11 +36,11 @@ public class WikiAddLanguagesPage {
     backButton.click();
   }
 
-  public void checkListOfAddedLanguages() {
-    wikiLanguagesListOnFirstScreen.shouldHave(texts("English", "Deutsch", "ADD LANGUAGE"));
+  public void checkListOfAddedLanguages(String firstCode, String secondCode) {
+    languageCodeList.shouldHave(texts(firstCode, secondCode));
   }
 
-  public void checkSizeOfLanguagesList() {
-    languagesList.$$(AppiumBy.id("org.wikipedia.alpha:id/option_label")).shouldHave(size(2));
+  public void checkSizeOfLanguagesList(int sizeValue) {
+    languagesList.$$(AppiumBy.id("org.wikipedia.alpha:id/option_label")).shouldHave(size(sizeValue));
   }
 }

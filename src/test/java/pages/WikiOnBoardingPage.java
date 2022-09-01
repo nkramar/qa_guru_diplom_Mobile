@@ -2,10 +2,8 @@ package pages;
 
 import com.codeborne.selenide.SelenideElement;
 import io.appium.java_client.AppiumBy;
-
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
-
 
 public class WikiOnBoardingPage {
   SelenideElement
@@ -17,7 +15,6 @@ public class WikiOnBoardingPage {
           textOnSecondScreen = "New ways to explore",
           textOnThirdScreen = "Reading lists with sync",
           textOnFourthScreen = "Send anonymous data";
-
 
   public void shouldHavePrimaryText(String value) {
     primaryTextView.shouldHave(text(value));

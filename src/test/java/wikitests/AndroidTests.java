@@ -29,13 +29,13 @@ public class AndroidTests extends TestBase {
             -> wikiAddLanguagesPage.addGermanLanguage());
 
     step("Проверить что немецкий язык добавлен в список языков Wikipedia", ()
-            -> wikiAddLanguagesPage.checkListOfAddedLanguages());
+            -> wikiAddLanguagesPage.checkListOfAddedLanguages("EN", "DE"));
 
     step("Вернуться на первый экран", ()
             -> wikiAddLanguagesPage.clickBackButton());
 
     step("Проверить, что список языков на первом экране состоит из 2 языков", ()
-            -> wikiAddLanguagesPage.checkSizeOfLanguagesList());
+            -> wikiAddLanguagesPage.checkSizeOfLanguagesList(2));
   }
 
   @Test
@@ -77,13 +77,17 @@ public class AndroidTests extends TestBase {
   void searchAndOpenArticleTest() {
 
     step("Переходим со страницы выбора языка на страницу поиска", Selenide::back);
+
     step("Вводим текст запроса в поле поиска", () -> {
       wikiSearchPage.clickOnSearchContainer();
       wikiSearchPage.setSearchText("Java"); });
+
     step("Проверяем, что список результатов поиска не пустой", ()
             -> wikiSearchPage.checkSizeOfResultList());
+
     step("Открываем статью про язык программирования Java ", ()
             -> wikiSearchPage.openSearchResultItem("Java (programming language)"));
+
     step("Проверяем логотип Java на открывшейся странице", ()
             -> wikiSearchPage.checkImageInArticle());
   }
