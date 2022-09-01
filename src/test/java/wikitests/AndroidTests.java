@@ -78,9 +78,11 @@ public class AndroidTests extends TestBase {
 
     step("Переходим со страницы выбора языка на страницу поиска", Selenide::back);
 
-    step("Вводим текст запроса в поле поиска", () -> {
-      wikiSearchPage.clickOnSearchContainer();
-      wikiSearchPage.setSearchText("Java"); });
+    step("Кликаем на поле поиска", ()
+            -> wikiSearchPage.clickOnSearchContainer());
+
+    step("Вводим нужный текст", ()
+            -> wikiSearchPage.setSearchText("Java"));
 
     step("Проверяем, что список результатов поиска не пустой", ()
             -> wikiSearchPage.checkSizeOfResultList());
