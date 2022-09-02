@@ -23,9 +23,9 @@ public class EmulatorMobileDriver implements WebDriverProvider {
   public WebDriver createDriver(@Nonnull Capabilities capabilities) {
 
     EmulatorConfig config = ConfigFactory.create(EmulatorConfig.class, System.getProperties());
-    String platformName = config.platformNameEm();
-    String deviceName = config.deviceNameEm();
-    String osVersion = config.osVersionEm();
+    String platformName = config.getPlatformName();
+    String deviceName = config.getDeviceName();
+    String osVersion = config.getOsVersion();
 
     File app = getApp();
     UiAutomator2Options options = new UiAutomator2Options();

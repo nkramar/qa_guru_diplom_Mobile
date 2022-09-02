@@ -23,9 +23,9 @@ public class RealDeviceDriver implements WebDriverProvider {
   public WebDriver createDriver(@Nonnull Capabilities capabilities) {
 
     RealDeviceConfig config = ConfigFactory.create(RealDeviceConfig.class, System.getProperties());
-    String platformName = config.platformName();
-    String deviceName = config.deviceName();
-    String osVersion = config.osVersion();
+    String platformName = config.getPlatformName();
+    String deviceName = config.getDeviceName();
+    String osVersion = config.getOsVersion();
 
     File app = getApp();
     UiAutomator2Options options = new UiAutomator2Options();

@@ -8,12 +8,12 @@ import org.aeonbits.owner.Config;
 public interface RealDeviceConfig extends Config {
 
   @Key("platformName")
-  String platformName();
+  String getPlatformName();
 
   @Key("deviceName")
-  String deviceName();
+  String getDeviceName();
 
   @Key("osVersion")
-  String osVersion();
+  String getOsVersion();
 
 }

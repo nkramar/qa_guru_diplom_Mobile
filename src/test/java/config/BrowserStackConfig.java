@@ -8,19 +8,19 @@ import org.aeonbits.owner.Config;
 public interface BrowserStackConfig extends Config{
 
   @Key("login")
-  String login();
+  String getLogin();
 
   @Key("password")
-  String password();
+  String getPassword();
 
   @Key("app")
-  String app();
+  String getApp();
 
   @Key("deviceName")
-  String deviceName();
+  String getDeviceName();
 
   @Key("osVersion")
-  String osVersion();
+  String getOsVersion();
 
 }
 

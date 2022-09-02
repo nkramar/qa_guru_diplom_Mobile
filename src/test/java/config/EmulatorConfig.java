@@ -6,14 +6,14 @@ import org.aeonbits.owner.Config;
         "classpath:emulator.properties"
 })
 public interface EmulatorConfig extends Config {
-  @Key("platformNameEm")
-  String platformNameEm();
+  @Key("platformName")
+  String getPlatformName();
 
-  @Key("deviceNameEm")
-  String deviceNameEm();
+  @Key("deviceName")
+  String getDeviceName();
 
-  @Key("osVersionEm")
-  String osVersionEm();
+  @Key("osVersion")
+  String getOsVersion();
 
 }
 
